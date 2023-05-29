@@ -1,18 +1,26 @@
 import { useQuery } from "react-query";
-import { getProduct } from "../../apis/product";
+import { getProductAll } from "../../apis/product";
 import ProductCard from "../../components/product/ProductCard";
+import { Grid } from "@mui/material";
 function ProductList() {
-  const query = useQuery("product", getProduct);
+  const { status, data } = useQuery("getProductAll", getProductAll);
+
+  if (status === "loading") {
+    return <span>로딩</span>;
+  }
+
+  if (status === "error") {
+    return <span>에러</span>;
+  }
+
   return (
-    <div>
-      {query.data ? (
-        query.data.data.map((product) => (
-          <ProductCard product={product} key={product.id} />
-        ))
-      ) : (
-        <span>등록된 상품이 없습니다.</span>
-      )}
-    </div>
+    <Grid container spacing={2}>
+      {data.data.map((product) => (
+        <Grid item xs={3} key={product.id}>
+          <ProductCard product={product} />
+        </Grid>
+      ))}
+    </Grid>
   );
 }
 export default ProductList;

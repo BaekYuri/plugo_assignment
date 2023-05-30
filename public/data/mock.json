@@ -3,84 +3,57 @@
     "id": 1,
     "title": "Raya Scarf",
     "price": 199000,
-    "description": "Total 7 pilihan warna<br>Size 115cm x 115cmLasercut finising<br>1kg = 12pcs<br>Harga Rp 199.000,- (bestprice)<br>Berat: 105g",
+    "description": "Total 7 pilihan warna\nSize 115cm x 115cm\nLasercut finising\n1kg = 12pcs\nHarga Rp 199.000,- (bestprice)\nBerat: 105g",
     "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Black_1673337663685.jpg"
   },
   {
     "id": 2,
     "title": "Blossom Scarf - Cream",
     "price": 199000,
-    "description": "Size 115cm x 115cm<br>Lasercut finising<br>1kg = 12pcs<br>Harga satuan Rp 199.000,-<br>Berat: 105g",
+    "description": "Size 115cm x 115cm\nLasercut finising\n1kg = 12pcs\nHarga satuan Rp 199.000,-\nBerat: 105g",
     "image": "https://d2kchovjbwl1tk.cloudfront.net/images/products/Blossom_Scarf_1659756957802.png"
   },
   {
-    "id": 1,
-    "title": "Raya Scarf",
+    "id": 3,
+    "title": "Meeda Shawl",
     "price": 199000,
-    "description": "Total 7 pilihan warna<br>Size 115cm x 115cmLasercut finising<br>1kg = 12pcs<br>Harga Rp 199.000,- (bestprice)<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Black_1673337663685.jpg"
+    "description": "Gonegani adalah produk Local Brand Indonesia, Produk Meeda Shawl ini berbahan Tancel modal. Kami memberikan 5 pilihan warna berbeda.\nSize Chart\nkurang lebih panjang 75cm x lebar 185cm\n1Kg bisa muat pemesanan 3pcs\nBerat: 280g",
+    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Latte_2_1673836797880.jpeg"
   },
   {
-    "id": 2,
-    "title": "Blossom Scarf - Cream",
-    "price": 199000,
-    "description": "Size 115cm x 115cm<br>Lasercut finising<br>1kg = 12pcs<br>Harga satuan Rp 199.000,-<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/images/products/Blossom_Scarf_1659756957802.png"
+    "id": 4,
+    "title": "Luna Cardigan - Dusty Pink",
+    "price": 229000,
+    "description": "Cardigan total 5 warna\nBahan Cotton Knit 100% (adem, lembut, menyerap keringat & nyaman)\nAll size\nLingkar dada (±) 116cm (bisa melar lagi karena bahan knit)\nPanjang (±) 60-61cm\nHarga Rp 229.000,- (best price)\n1kg = 4pcs",
+    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dustypink_1679275096630.jpeg"
+  },
+
+  {
+    "id": 5,
+    "title": "Secret Voal Eyelesh - Forest",
+    "price": 99000,
+    "description": "Total 21 warna\nBahan SECRET VOAL (bukan paris ataupun voal) tapi satu tingkat premiumnya.\nSize 110×110cm\nHarga Rp 99.000, - (best price)\n1kg = 16pcs\nBerat: 80g",
+    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Forest_1680329339441.jpg"
   },
   {
-    "id": 1,
-    "title": "Raya Scarf",
-    "price": 199000,
-    "description": "Total 7 pilihan warna<br>Size 115cm x 115cmLasercut finising<br>1kg = 12pcs<br>Harga Rp 199.000,- (bestprice)<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Black_1673337663685.jpg"
+    "id": 6,
+    "title": "Secret Voal Eyelesh - Grape",
+    "price": 99000,
+    "description": "Total 21 warna\nBahan SECRET VOAL (bukan paris ataupun voal) tapi satu tingkat premiumnya.\nSize 110×110cm\nHarga Rp 99.000, - (best price)\n1kg = 16pcs\nBerat: 80g",
+    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Grape_1680329401956.jpg"
   },
   {
-    "id": 2,
-    "title": "Blossom Scarf - Cream",
-    "price": 199000,
-    "description": "Size 115cm x 115cm<br>Lasercut finising<br>1kg = 12pcs<br>Harga satuan Rp 199.000,-<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/images/products/Blossom_Scarf_1659756957802.png"
+    "id": 7,
+    "title": "Secret Voal Eyelesh - Lavender",
+    "price": 99000,
+    "description": "Total 21 warna\nBahan SECRET VOAL (bukan paris ataupun voal) tapi satu tingkat premiumnya.\nSize 110×110cm\nHarga Rp 99.000, - (best price)\n1kg = 16pcs\nBerat: 80g",
+    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Lavender_1680329789509.jpg"
   },
   {
-    "id": 1,
-    "title": "Raya Scarf",
-    "price": 199000,
-    "description": "Total 7 pilihan warna<br>Size 115cm x 115cmLasercut finising<br>1kg = 12pcs<br>Harga Rp 199.000,- (bestprice)<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Black_1673337663685.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Blossom Scarf - Cream",
-    "price": 199000,
-    "description": "Size 115cm x 115cm<br>Lasercut finising<br>1kg = 12pcs<br>Harga satuan Rp 199.000,-<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/images/products/Blossom_Scarf_1659756957802.png"
-  },
-  {
-    "id": 1,
-    "title": "Raya Scarf",
-    "price": 199000,
-    "description": "Total 7 pilihan warna<br>Size 115cm x 115cmLasercut finising<br>1kg = 12pcs<br>Harga Rp 199.000,- (bestprice)<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Black_1673337663685.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Blossom Scarf - Cream",
-    "price": 199000,
-    "description": "Size 115cm x 115cm<br>Lasercut finising<br>1kg = 12pcs<br>Harga satuan Rp 199.000,-<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/images/products/Blossom_Scarf_1659756957802.png"
-  },
-  {
-    "id": 1,
-    "title": "Raya Scarf",
-    "price": 199000,
-    "description": "Total 7 pilihan warna<br>Size 115cm x 115cmLasercut finising<br>1kg = 12pcs<br>Harga Rp 199.000,- (bestprice)<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Black_1673337663685.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Blossom Scarf - Cream",
-    "price": 199000,
-    "description": "Size 115cm x 115cm<br>Lasercut finising<br>1kg = 12pcs<br>Harga satuan Rp 199.000,-<br>Berat: 105g",
-    "image": "https://d2kchovjbwl1tk.cloudfront.net/images/products/Blossom_Scarf_1659756957802.png"
+    "id": 8,
+    "title": "Secret Voal Eyelesh - Lylac Sachet",
+    "price": 99000,
+    "description": "Total 21 warna\nBahan SECRET VOAL (bukan paris ataupun voal) tapi satu tingkat premiumnya.\nSize 110×110cm\nHarga Rp 99.000, - (best price)\n1kg = 16pcs\nBerat: 80g",
+    "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Lylac_Sachet_1680329819835.jpg"
   }
 ]

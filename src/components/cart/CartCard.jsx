@@ -9,14 +9,19 @@ import {
 import DeleteIcon from "@mui/icons-material/Delete";
 import { updateCart, deleteCart } from "../../utils/cart";
 function CartCard(props) {
-  const { cartItem, setCart } = props;
+  const { cartItem, setCart, setSnackbarOpen } = props;
 
   const countChangeHandler = (e) => {
+    if (!e.target.value || e.target.value <= 0) {
+      e.target.value = cartItem.count;
+      return;
+    }
     setCart(updateCart(cartItem, e.target.value));
   };
 
   const deleteButtonHandler = () => {
     setCart(deleteCart(cartItem.id));
+    setSnackbarOpen(true);
   };
 
   return (

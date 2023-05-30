@@ -4,6 +4,7 @@ import Header from "./components/ui/header/Header";
 import CartList from "./pages/cart/CartList";
 import ProductList from "./pages/product/ProductList";
 import ProductDetail from "./pages/product/ProductDetail";
+import AddProduct from "./pages/admin/AddProduct";
 import "./App.css";
 import { getCart } from "./utils/cart";
 
@@ -23,6 +24,7 @@ function App() {
           path="/cart"
           element={<CartList cart={cart} setCart={setCart} />}
         />
+        <Route path="/admin/product" element={<AddProduct />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,14 +1,16 @@
-export const addCart = (product, count) => {
+export const getCart = () => {
   let cart = localStorage.getItem("cart");
-  if (!cart) cart = "[]";
+  if (cart) return JSON.parse(cart);
+  return [];
+};
 
-  const formatProduct = { ...product, count: count };
-  cart = JSON.parse(cart);
+export const addCart = (product, count) => {
+  let cart = getCart();
 
-  let idx = cart.findIndex(product.id);
+  let idx = cart.findIndex((nowProduct) => nowProduct.id === product.id);
 
   if (idx === -1) {
-    cart.push(formatProduct);
+    cart.push({ ...product, count: count });
   } else {
     cart[idx].count += count;
   }
@@ -16,29 +18,25 @@ export const addCart = (product, count) => {
   localStorage.setItem("cart", JSON.stringify(cart));
 };
 
-export const deleteCart = (id) => {
-  let cart = localStorage.getItem("cart");
-  if (!cart) return;
-  cart = JSON.parse(cart);
+export const updateCart = (product, count) => {
+  let cart = getCart();
 
-  let idx = cart.findIndex(id);
+  let idx = cart.findIndex((nowProduct) => nowProduct.id === product.id);
+
+  if (idx !== -1) {
+    cart[idx] = { ...product, count: count };
+  }
+  localStorage.setItem("cart", JSON.stringify(cart));
+};
+
+export const deleteCart = (id) => {
+  let cart = getCart();
+
+  let idx = cart.findIndex((nowProduct) => nowProduct.id === id);
 
   if (idx !== -1) {
     cart.splice(idx, 1);
   }
 
-  localStorage.setItem("cart", JSON.stringify(cart));
-};
-
-export const updateCart = (product, count) => {
-  let cart = localStorage.getItem("cart");
-  if (!cart) return;
-  cart = JSON.parse(cart);
-
-  let idx = cart.findIndex(product.id);
-
-  if (idx !== -1) {
-    cart[idx] = { ...product, count: count };
-  }
   localStorage.setItem("cart", JSON.stringify(cart));
 };

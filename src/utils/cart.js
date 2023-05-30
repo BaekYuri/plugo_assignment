@@ -16,6 +16,8 @@ export const addCart = (product, count) => {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
+
+  return cart;
 };
 
 export const updateCart = (product, count) => {
@@ -27,6 +29,8 @@ export const updateCart = (product, count) => {
     cart[idx] = { ...product, count: count };
   }
   localStorage.setItem("cart", JSON.stringify(cart));
+
+  return cart;
 };
 
 export const deleteCart = (id) => {
@@ -39,4 +43,6 @@ export const deleteCart = (id) => {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
+
+  return cart;
 };

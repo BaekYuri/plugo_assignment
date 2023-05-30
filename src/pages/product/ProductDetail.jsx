@@ -23,7 +23,7 @@ function ProductDetail(props) {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   const addButtonHandler = () => {
-    setCart(addCart(data.data, numberInputRef.current.value));
+    setCart(addCart(data, numberInputRef.current.value));
     setSnackbarOpen(true);
   };
   if (status === "loading") {
@@ -38,23 +38,23 @@ function ProductDetail(props) {
       <Card sx={{ display: "flex", width: "100%" }}>
         <CardMedia
           component="img"
-          image={data.data.image}
-          alt={data.data.title}
+          image={data.image}
+          alt={data.title}
           height={400}
         />
         <CardContent sx={{ width: "70%" }}>
           <Typography gutterBottom variant="h6" component="div">
-            {data.data.title}
+            {data.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {data.data.price}
+            {data.price}
           </Typography>
           <Typography
             variant="caption"
             component="div"
             sx={{ whiteSpace: "pre-line" }}
           >
-            {data.data.description}
+            {data.description}
           </Typography>
           <TextField type="number" defaultValue={1} inputRef={numberInputRef} />
           <IconButton onClick={addButtonHandler}>

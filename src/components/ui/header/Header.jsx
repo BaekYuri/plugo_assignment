@@ -22,6 +22,11 @@ function Header() {
           Cart
         </Typography>
       </Link>
+      <Link to="/admin/product" style={{ textDecoration: "none" }}>
+        <Typography sx={{ minWidth: 100 }} variant="h6">
+          Add Product
+        </Typography>
+      </Link>
     </Box>
   );
 }

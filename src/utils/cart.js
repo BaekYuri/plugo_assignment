@@ -12,7 +12,7 @@ export const addCart = (product, count) => {
   if (idx === -1) {
     cart.push({ ...product, count: count });
   } else {
-    cart[idx].count += count;
+    cart[idx].count = String(Number(cart[idx].count) + Number(count));
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
@@ -45,4 +45,12 @@ export const deleteCart = (id) => {
   localStorage.setItem("cart", JSON.stringify(cart));
 
   return cart;
+};
+
+export const getTotalPrice = () => {
+  let cart = getCart();
+
+  return cart.reduce((acc, cur) => {
+    return (acc += cur.price * cur.count);
+  }, 0);
 };

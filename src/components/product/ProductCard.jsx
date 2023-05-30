@@ -15,7 +15,7 @@ function ProductCard(props) {
     setSnackbarOpen(true);
   };
   return (
-    <Card height={600}>
+    <Card sx={{ height: "480px" }}>
       <CardMedia
         component="img"
         image={product.image}
